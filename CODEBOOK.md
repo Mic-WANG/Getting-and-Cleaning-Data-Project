@@ -5,11 +5,14 @@ DATA DICTIONARY - HUMAN ACTIVITY RECOGNITION
 ---------------------------------------------------------
 
 The features come from the accelerometer and gyroscope 3-axial(XYZ) raw signals.
+
 The original data comes from:
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
 
 We only keep the the variables with mean and standard deviation plus activity and subject (68 variables).
+
 We transform the data into the average of each variable for each activity and each subject.
+
 The data has been scaled by dividing by the range, hence their original units are cancelled.
 
 *Activity*:
