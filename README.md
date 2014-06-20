@@ -25,7 +25,7 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
   * merge them together and name the columns "Activity" and "Subject".
   * merge all tables above together and only keep the mean of each activity and each subject.
   * change the names of activity from activity_labels files manually.
-  * use 'write.table' to output the final data set.
+  * use 'write.table' to output the final data set "tidydata.txt".
 
 * **How to Read in the Tidy Data Set**:
 Please use 'read.table(file,sep="",header=TRUE)'.
